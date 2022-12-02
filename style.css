@@ -28,6 +28,9 @@ a {
 img {
     max-height: 100%;
     max-width: 100%;
+    margin-top: 18px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .authors {
@@ -52,3 +55,29 @@ img {
     margin-bottom: 50px;
 }
 
+.AD-WIZARD-images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 1000px) {
+    #DOROTHIE {
+        max-width: 850px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #TOTO {
+        max-width: 850px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 1300px) {
+    #CO-WIZARD {
+        max-width: 1150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
