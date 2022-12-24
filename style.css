@@ -1,9 +1,29 @@
 body {
-    margin: 60px 75px;
     font-family: 'Anek Devanagari', 'Nunito';
     color: #222222;
+    margin: 60px 75px;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00005C;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+ul {
+    display: none;
+}
+
+li {
+    display:block;
+    color: white;
+    padding: 14px 16px;
+}
 h1 {
     color: #00005C;
     font-size: 45px;
@@ -13,6 +33,14 @@ h1 {
     margin-right: 200px;
     margin-bottom: 0px;
     padding: 30px 0px;
+}
+
+.sm-view {
+    display: inline-block;
+}
+
+.lg-view {
+    display: none;
 }
 
 h2 {
@@ -61,12 +89,22 @@ img {
 }
 
 .AD-images {
-    flex-grow: 1;
+    max-width: 300px;
+}
+
+@media (min-width: 400px) {
+    .AD-images {
+        flex-grow: 1;
+    }
 }
 
 @media (min-width: 800px) {
-    .AD-images {
-        max-width: 300px;
+    .sm-view {
+        display: none;
+    }
+    
+    .lg-view {
+        display: inline-block;
     }
 }
 
