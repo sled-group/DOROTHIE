@@ -82,6 +82,12 @@ img {
         margin-left: auto;
         margin-right: auto;
     }
+
+    #EXAMPLE {
+        max-width: 850px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media (min-width: 1300px) {

@@ -42,18 +42,19 @@
         <h2>Dialogue On the ROad To Handle Irregular Events (DOROTHIE)</h2>
         <p><b>Dialogue On the ROad To Handle Irregular Events (DOROTHIE)</b> is a simulation framework developed upon CARLA 
             to study situated human-vehicle communication based on the <b>Wizard-of-Oz (WoZ)</b> setting. We extend the traditional 
-            single-wizard to a duo-wizard setup approach by introducing a pair of Wizards.</p>
+            single-wizard to a duo-wizard setup approach by introducing a pair of Wizards. For detailed description of the simulation, 
+            please refer to Appendex A in the paper.</p>
         <div class="section">
             <h3>Co-Wizard Interface</h3>
-            <p>
-                
-            </p>
+            <p>The <b>Cooperative-Wizard</b> controls the agent's behaviors and carries language communication with the human 
+            participant to jointly achieve the goal. Down below is an example of Co-Wizard interface.</p>
             <img src="images/CO-WIZARD.jpg" alt="" id="CO-WIZARD">
         </div>
         
         <div class="section">
             <h3>Ad-Wizard Interface</h3>
-            <p></p>
+            <p>The <b>Adversarial-Wizard</b> controls the environment and task interface and introduces unexpected situations 
+            such as road blocks and goal manipulation on-the-fly.</p>
             <div class="AD-WIZARD-images">
                 <img src="images/EXCEPTION_ENV.pdf" alt="" class = "AD-images">
                 <img src="images/EXCEPTION-PLAN.pdf" alt="" class = "AD-images">
@@ -62,13 +63,18 @@
         </div>
     </div>
     <div class="section">
-        <h2>Examples</h3>
+        <h2>Example</h3>
+        <p>Down below is example dialogue with annotations. For details in annotation, please refer to Appendex B in the paper. 
+        Each color bar represents a transaction unit and each box represents an exchange unit. The tasks challenge the agent to understand 
+        the input dialogue move and imitate Co-Wizard's decision on the next navigation action and dialogue move to take.</p>
+        <img src="images/EXAMPLE.pdf" alt="" id="EXAMPLE">
     </div>
     <div class="section">
         <h2>Temporally-Ordered Task-Oriented (TOTO) Transformer</h2>
-        <p>
-
-        </p>
+        <p><b>Temporally-Ordered Task-Oriented Transformer (TOTO)</b> is temporally-ordered as it assigns sinusoidal temporal encodings 
+        for input histroy instead of recurrent updates of hidden state, and is task-oriented as a unified architecture for 3 
+        <b>Situated Dialogue Naviagation (SDN)</b> benchmark, Dialogue Understanding for Navigation (UfD), Dialogue Response for Navigation (RfN), 
+        and Navigation from Dialogue (NfD). For detailed description of SDN task definition, please refer to Section 5 in the paper.</p>
         <img src="images/TOTO.jpg" alt="" id="TOTO">
     </div>
 </body>
