@@ -60,6 +60,16 @@ img {
     flex-wrap: wrap;
 }
 
+.AD-images {
+    flex-grow: 1;
+}
+
+@media (min-width: 800px) {
+    .AD-images {
+        max-width: 300px;
+    }
+}
+
 @media (min-width: 1000px) {
     #DOROTHIE {
         max-width: 850px;
@@ -72,11 +82,6 @@ img {
         margin-left: auto;
         margin-right: auto;
     }
-
-    .AD-images {
-        width: 50px;
-        height: 50px;
-    }
 }
 
 @media (min-width: 1300px) {
@@ -84,5 +89,19 @@ img {
         max-width: 1150px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .AD-WIZARD-images {
+        display: block;
+        text-align: center;
+    }
+
+    .AD-images {
+        display: inline-block;
+        width: 300px;
+    }
+
+    .AD-images + .AD-images {
+        margin-left: 80px;
     }
 }
