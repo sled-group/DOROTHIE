@@ -92,6 +92,24 @@ img {
     max-width: 300px;
 }
 
+.responsive-iframe { position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+  
+  
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 50px;
+    width: 100%;
+    height: 100%;
+}
+
 @media (min-width: 400px) {
     .AD-images {
         flex-grow: 1;
@@ -122,6 +140,12 @@ img {
     }
 
     #EXAMPLE {
+        max-width: 850px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    iframe {
         max-width: 850px;
         margin-left: auto;
         margin-right: auto;
