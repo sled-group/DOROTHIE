@@ -1,0 +1,10 @@
+{
+    "variables": [["P1", "places.stores"], ["P2",  "places.cafe"], ["P3", "places.gasstation"], ["P4", "places.stores"], ["P10", "places.residential"], ["P11", "people"]],
+    "dependents": [["F1", "P2.menuitems"], ["A1", "P3.actions"], ["A2", "P4.actions"]],
+    "hidden_from_co_wizard": ["P10", "P11"],
+    "story": "You recently got hired at $P1 as a part time receptionist. To wake yourself up, you go to $P2 to buy $F1. Then, you remembered that you need to $A1 at $P3 and $A2 at $P4. After, you head over to $P1 for your first day of training.",
+    "subgoals": [{"type":  "arrive", "destination": "$P2", "description":  "Buy $F1 from $P2"},
+              {"type":  "arrive", "destination": "$P3", "description":  "$A1 at $P3"},
+              {"type":  "arrive", "destination": "$P4", "description":  "$A2 at $P4"},
+              {"type":  "arrive", "destination": "$P1", "description":  "Arrive at $P1"}]
+  }

@@ -1,0 +1,41 @@
+{
+  "maps": ["Town04"],
+  "departures": [
+    {"location": [204, -213.1, 0.275307], "rotation": [0.000000,-90, 0.000000]}],
+  "vehicles": ["vehicle.audi.tt", "vehicle.audi.etron", "vehicle.tesla.model3"],
+
+  "npc_count_min": 0,
+  "npc_count_max": 0,
+
+
+  "street_names": ["Baits", "Beal", "Fuller", "Bishop", "Bonisteel", "Broadway", "Draper", "Hayward", "Highway"],
+  "street_name_shuffle": false,
+
+  "asset_groups": {
+    "Town04": [
+      {"assets": ["walker.pedestrian.0001"], 
+	"probabilities": [1.0],
+	"transforms": [{"location" :[109,149,6], "rotation": [0,0,0]},
+			{"location" :[456.5,1.5,6], "rotation": [0,0,0]},
+			{"location" :[15,328,6], "rotation": [0,0,0]},
+			{"location" :[-169.8,-140.7,6], "rotation": [0,0,0]},
+			{"location" :[48,-180,6], "rotation": [0,0,0]},
+			{"location" :[197.3,-336.5,0.2], "rotation": [0,0,0]}]
+},
+      
+
+      {"assets": ["null.house", "null.house"],
+        "probabilities": [1.0, 1.0],
+        "transforms": [{"location": [277, -270, 5], "rotation": [180,45,-90]},
+			{"location": [218, -143, 5], "rotation": [180,45,-90]},
+			{"location": [84, -248, 5], "rotation": [180,45,-90]},
+			{"location": [343.5, -145, 5], "rotation": [180,45,-90]}]
+	},
+
+      {"assets": ["null.hospital"],
+	"probabilities": [1.0],
+	"transforms": [{"location": [231.7, -258, 5], "rotation": [0,0,0]}]
+	}
+    ]
+  }
+}

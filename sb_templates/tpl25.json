@@ -1,0 +1,12 @@
+{
+    "variables": [["P1", "places.restaurants"], ["P2",  "places.restaurants"], ["P3", "places.restaurants"], ["P4", "places.cafe"], ["P5", "places.residential"], ["P6", "places"], ["P10", "people"]],
+    "dependents": [["F1", "P1.menuitems"], ["F2", "P1.menuitems"], ["F3", "P2.menuitems"], ["F4", "P3.menuitems"], ["F5", "P3.menuitems"], ["F6", "P3.menuitems"], ["D1", "P4.menuitems"], ["D2", "P4.menuitems"]],
+    "hidden_from_co_wizard": ["P5", "P10"],
+    "story": "Today is your mother-in-law's birthday. You decide to hold a secret birthday party for her at her house. To prepare for the party, you pick up $F1 and $F2 from $P1, $F3 from $P2, and $F4,$F5, and $F6 from $P3, which are the foods your mother-in-law likes to eat. Then you buy $D1 and $D2 from $P4 for your husband and father-in-law who are decorating the house. With all items, you return to your mother-in-law's $P5, then go pick her up from $P6.",
+    "subgoals": [{"type":  "arrive", "destination": "$P1", "description":  "Pick up $F1 and $F2 from $P1"},
+              {"type":  "arrive", "destination": "$P2", "description":  "Pick up $F3 from $P2"},
+              {"type":  "arrive", "destination": "$P3", "description":  "Pick up $F4, $F5, and $F6 from $P3"},
+              {"type":  "arrive", "destination": "$P4", "description":  "Buy $D1 and $D2 from $P4"}, 
+              {"type":  "arrive", "destination": "$P5", "description":  "Arrive at your mother-in-law's $P5"},
+              {"type":  "arrive", "destination": "$P6", "description":  "Pick up your mother-in-law at $P6"}]
+  }

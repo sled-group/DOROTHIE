@@ -1,0 +1,9 @@
+{
+    "variables": [["P1", "places.stores"], ["P2",  "places.stores"], ["P3", "places.residential"], ["P10", "people"]],
+    "dependents": [["I1", "P1.items"], ["I2", "P1.items"], ["I3", "P2.items"]],
+    "hidden_from_co_wizard": ["P3", "P10"],
+    "story": "Your friend Annabel is moving to a new house and you decided to help her by doing some shopping for her. You need to get $I1 and $I2 from $P1 and $I3 from $P2, and head to Annabel's new $P3 to help her clean the house.",
+    "subgoals": [{"type":  "arrive", "destination": "$P1", "description":  "Pick up $I1 and $I2 from $P1"},
+              {"type":  "arrive", "destination": "$P2", "description":  "Pick up $I3 from $P2","delete":true},
+              {"type":  "arrive", "destination": "$P3", "description":  "Arrive at Annabel's new $P3","after":[0]}]
+  }

@@ -1,0 +1,9 @@
+{
+    "variables": [["P1", "places.cafe"], ["P2",  "places.gasstation"], ["P3", "places.stores"], ["P10", "places.residential"], ["P11", "people"]],
+    "dependents": [["A1", "P2.actions"]],
+    "hidden_from_co_wizard": ["P10", "P11"],
+    "story": "You are going to study for upcoming midterm today. Before going to study, though, you need to $A1 at $P2 then return an item at $P3. After completing those chores, you need to go to $P1 to study.",
+    "subgoals": [{"type":  "arrive", "destination": "$P2", "description":  "$A1 from $P2"},
+              {"type":  "arrive", "destination": "$P3", "description":  "Return an item at $P3"},
+              {"type":  "arrive", "destination": "$P1", "description":  "Arrive at $P1 and study"}]
+  }

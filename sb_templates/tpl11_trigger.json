@@ -1,0 +1,10 @@
+{
+    "variables": [["P1", "places"], ["P2",  "places.gasstation"], ["P3", "places.restaurants"], ["P4", "places.residential"], ["P10", "people"]],
+    "dependents": [],
+    "hidden_from_co_wizard": ["P4", "P10"],
+    "story": "Your friend Jamie is holding a pajama party tonight. You need to pick up Renee, pump gas at $P2, order takeout food at $P3, then head to Jamie's $P4.",
+    "subgoals": [{"type":  "arrive", "destination": "$P10", "description":  "Pick up Renee"},
+              {"type":  "arrive", "destination": "$P2", "description":  "Pump gas at $P2", "trigger": true},
+              {"type":  "arrive", "destination": "$P3", "description":  "Order takeout food at $P3"},
+              {"type":  "arrive", "destination": "$P4", "description":  "Arrive at Jamie's $P4"}]
+  }

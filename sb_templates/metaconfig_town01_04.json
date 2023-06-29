@@ -1,0 +1,52 @@
+{
+  "maps": ["Town01"],
+  "departures": [
+    {"location": [182, -2.1, 0.275307], "rotation": [0.000000,180.004189, 0.000000]},
+    {"location": [392.3, 232.0, 0.275307], "rotation": [0.000000,90, 0.000000]},
+    {"location": [146.2, 199.1, 0.275307], "rotation": [0.000000,0, 0.000000]},
+    {"location": [2.0, 265.0, 0.275307], "rotation": [0.000000,-90, 0.000000]}
+  ],
+  "vehicles": ["vehicle.audi.tt", "vehicle.audi.etron", "vehicle.tesla.model3"],
+
+  "npc_count_min": 10,
+  "npc_count_max":25,
+
+  "weather": {"precipitation": [0, 100]},
+
+  "street_names": ["Baits", "Beal", "Fuller", "Bishop", "Bonisteel", "Broadway", "Draper", "Hayward", "Hubbard", "Murfin", "Plymouth", "Duffield", "Upland", "Division"],
+  "street_name_shuffle": true,
+
+  "asset_groups": {
+    "Town01": [
+      {"assets": ["walker.pedestrian.0001"], 
+	"probabilities": [1.0],
+	"transforms": [{"location": [389, 98, 0.2], "rotation": [0, 0, 0]},
+			{"location": [6, 202, 0.2], "rotation": [0, 180, 0]}]
+},
+      
+
+      {"assets": ["null.house"],
+        "probabilities": [1.0],
+        "transforms": [{"location": [150, 21, 5], "rotation": [180,45,-90]},
+                       {"location": [223, 63, 5], "rotation": [180,45,-90]},
+ 		       {"location": [330, 105.7, 5], "rotation": [180,45,-90]},
+		       {"location": [223, 63, 5], "rotation": [180,45,-90]},
+		       {"location": [6, 49.5, 5], "rotation": [180,45,-90]}]
+	},
+     {"assets": ["static.prop.coco", "static.prop.kfc", "static.prop.seveneleven", "static.prop.panera"],
+      "probabilities": [1.0, 1.0,1.0, 1.0],
+      "transforms": [
+                   {"location": [79,228,7], "rotation": [0, 90, 90]},
+		   {"location": [13.2,305,10], "rotation": [0, 90, 90]},
+		   {"location": [222.8,211,6.5], "rotation": [0, 0, 90]},
+		   {"location": [123.6,210.5,11], "rotation": [0, 0, 90]},
+		   {"location": [140.5,320.5,10], "rotation": [0, 180, 90]}]
+},
+     {"assets": ["static.prop.ikea"],
+      "probabilities": [1.0],
+      "transforms": [{"location": [232.3,321.5,10], "rotation": [0, 180, 90]},
+		   {"location": [129,116,10], "rotation": [0, -35, 90]}]
+}
+    ]
+  }
+}

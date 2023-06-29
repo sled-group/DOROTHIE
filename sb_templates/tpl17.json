@@ -1,0 +1,10 @@
+{
+    "variables": [["P1", "places.stores"], ["P2",  "places.stores"], ["P3", "places.gasstation"], ["P4", "places.residential"], ["P10", "people"]],
+    "dependents": [["A1", "P1.actions"], ["I1", "P2.items"], ["I2", "P2.items"]],
+    "hidden_from_co_wizard": ["P4", "P10"],
+    "story": "On your way back to home from work, you decided to stop by some stores. First you need to $A1 at $P1, then buy $I1 and $I2 from $P2. Finally, you need to pump gas at $P3, then return to your $P4",
+    "subgoals": [{"type":  "arrive", "destination": "$P1", "description":  "$A1 at $P1"},
+              {"type":  "arrive", "destination": "$P2", "description":  "Buy $I1 and $I2 from $P2"},
+              {"type":  "arrive", "destination": "$P3", "description":  "Pump gas at $P3"},
+              {"type":  "arrive", "destination": "$P4", "description":  "Arrive at your $P4"}]
+  }

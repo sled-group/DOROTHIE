@@ -1,0 +1,9 @@
+{
+    "variables": [["P1", "people"], ["P2",  "places.gasstation"], ["P3", "places.cafe"]],
+    "dependents": [["I1", "P3.menuitems"], ["I2", "P3.menuitems"]],
+    "hidden_from_co_wizard": ["P1"],
+    "story": "You and your friend Gabe decided to study together. You need to pick up Gabe from $P1, buy some snacks from $P2, then head to $P3 to order $I1 and $I2 and study.",
+    "subgoals": [{"type":  "arrive", "destination": "$P1", "description":  "Pick up Gabe", "delete_after_subgoal": true},
+              {"type":  "arrive", "destination": "$P2", "description":  "Buy some snacks from $P2", "trigger":true},
+              {"type":  "arrive", "destination": "$P3", "description":  "Arrive at $P3 and pick up $I1 and $I2"}]
+  }

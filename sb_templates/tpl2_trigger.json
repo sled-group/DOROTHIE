@@ -1,0 +1,9 @@
+{
+    "variables": [["P1", "places.stores"], ["P2",  "places.residential"], ["P3", "places.restaurants"], ["P10", "people"]],
+    "dependents": [["F1", "P1.items"]],
+    "hidden_from_co_wizard": ["P2","P10"],
+    "story": "You decided to go grab lunch with Emilia and Judy at $P3. Before heading to $P3, you decided to pick up $F1 that you ordered earlier from $P1. You then pick up Emilia from $P10 and head to $P3 and meet up with Judy.",
+    "subgoals": [{"type":  "arrive", "destination": "$P1", "description":  "Pick up $F1 from $P1"},
+              {"type":  "arrive", "destination": "$P10", "description":  "Pick up Emilia", "trigger":true},
+              {"type":  "arrive", "destination": "$P3", "description":  "Arrive at $P3 and meet Judy","after":[0,1]}]
+  }

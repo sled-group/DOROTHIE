@@ -1,0 +1,125 @@
+{
+  "static.prop.burgerking": {
+      "name": "Burger King",
+      "category": "places.restaurants",
+      "attributes": {"menuitems": ["burgers", "fries", "milkshakes", "onion rings"]}
+  },
+  
+  "static.prop.outback": {
+    "name": "Outback Steakhouse",
+    "category": "places.restaurants",
+    "attributes": {"menuitems": ["aussie chesse fries", "ribeye", "gold coast coconut shrimp", "filet mignon", "prime rib"]}
+  },
+  
+  "static.prop.panera": {
+    "name": "panera",
+    "category": "places.restaurants",
+    "attributes": {"menuitems": ["broccoli cheddar soup", "tomato soup", "greek salad", "caesar salad", "asiago bagel", "plain bagel", "mango smoothie", "coffee"]}
+  },
+  
+  "static.prop.kfc": {
+    "name": "kfc",
+    "category": "places.restaurants",
+    "attributes": {"menuitems": ["chicken", "sandwitch", "ice cream"]}
+  },
+  
+  
+  "static.prop.qdoba": {
+    "name": "qdoba",
+    "category": "places.restaurants",
+    "attributes": {"menuitems": ["rolls", "coke", "tacos"]}
+  },
+  
+  "static.prop.coco": {
+    "name": "coco",
+    "category": "places.cafe",
+    "attributes": {"menuitems": ["latte", "cold brew", "americano", "cappuccino"]}
+  },
+
+  "static.prop.ikea": {
+    "name": "Ikea",
+    "category": "places.stores",
+    "attributes": {"items": ["chair", "cushion", "table", "cabinet", "plates"],
+                  "actions": ["return an item", "exchange an item", "look around"]}
+  },
+
+  "static.prop.seveneleven": {
+    "name": "Seven Eleven",
+    "category": "places.stores",
+    "attributes": {"items": ["potato chips", "slurpee", "chocolate", "candy"],
+                  "actions": ["return an item", "look around"]}
+  },
+  
+  "static.prop.walgreens": {
+    "name": "walgreens",
+    "category": "places.stores",
+    "attributes": {"items": ["pencil", "paper", "t-shirt", "hoodie", "cough drop", "cake", "chicken", "cereal"],
+                  "actions": ["return an item", "exchange an item", "look around"]}
+  },
+  
+  "static.prop.airport": {
+    "name": "Airport",
+    "category": "places.airport",
+    "attributes": {}
+  },
+    
+  "static.prop.usps": {
+    "name": "United States Postal Service",
+    "category": "places.publicfacilities",
+    "attributes": {"actions": ["buy postal stamps", "mail a package", "mail an international package"]}
+  },
+    
+  "null.hospital": {
+    "name": "Hospital",
+    "category": "places.hospital",
+    "attributes": {"actions": ["visit a friend", "visit a family", "volunteer", "get a yearly checkup", "get vaccinated"]}
+  },
+  
+  "static.prop.library": {
+    "name": "Library",
+    "category": "places.publicfacilities",
+    "attributes": {"actions": ["borrow a book", "study", "return a book"]}
+  },
+  
+  "static.prop.escaperoom": {
+    "name": "Escape Room",
+    "category": "places.leisure",
+    "attributes": {"actions": ["play escape room"]}
+  },
+  
+  "static.prop.bowling": {
+    "name": "Bowling Alley",
+    "category": "places.leisure",
+    "attributes": {"actions": ["play bowling"]}
+  },
+  
+  
+  "static.prop.indoorgolf": {
+    "name": "Indoor Golf",
+    "category": "places.leisure",
+    "attributes": {"actions": ["play golf"]}
+  },
+
+  "null.house": {
+    "name": "house",
+    "category": "places.residential",
+    "attributes": {}
+  },
+  "null.shell": {
+    "name": "shell",
+    "category": "places.gasstation",
+    "attributes": {"actions": ["add fuel"],"items":["water"]}
+  },
+  
+  "static.prop.tree": {
+    "name": "tree",
+    "category": "objects.nature",
+    "attributes": {}  
+  },
+
+  "walker.pedestrian.0001": {
+    "name": "person",
+    "category": "people",
+    "attributes": {}
+  }
+}

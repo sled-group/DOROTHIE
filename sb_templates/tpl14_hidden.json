@@ -1,0 +1,10 @@
+{
+    "variables": [["P1", "places.cafe"], ["P2",  "places.restaurants"], ["P3", "places.restaurants"], ["P4", "places.residential"], ["P10", "people"]],
+    "dependents": [["F1", "P1.menuitems"], ["F2", "P2.menuitems"], ["F3", "P2.menuitems"], ["F4", "P3.menuitems"]],
+    "hidden_from_co_wizard": ["P4","P10"],
+    "story": "You invited your friends over for a party. To get ready for the party, you need to pick up $F1 from $P1, $F2 and $F3 from $P2, and $F4 from $P3, then return to your $P4.",
+    "subgoals": [{"type":  "arrive", "destination": "$P1", "description":  "Pick up $F1 from $P1"},
+              {"type":  "arrive", "destination": "$P2", "description":  "Pick up $F2 and $F3 from $P2"},
+              {"type":  "arrive", "destination": "$P3", "description":  "Pick up $F4 from $P3"},
+              {"type":  "arrive", "destination": "$P4", "description":  "Arrive at your $P4"}]
+  }

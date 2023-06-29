@@ -1,0 +1,9 @@
+{
+    "variables": [["P1", "places.stores"], ["P2",  "places.restaurants"], ["P3", "places.residential"], ["P10", "people"]],
+    "dependents": [["I1", "P1.items"], ["I2", "P1.items"], ["F1", "P2.menuitems"], ["F2", "P2.menuitems"]],
+    "hidden_from_co_wizard": ["P10"],
+    "story": "You are sleeping over at your aunt's house today. She asked you to buy $I1 and $I2 from $P1, order $F1 and $F2 as takeout at $P2. After completing those tasks for your aunt, you head over to your aunt's $P3.",
+    "subgoals": [{"type":  "arrive", "destination": "$P1", "description":  "Buy $I1 and $I2 from $P1"},
+              {"type":  "arrive", "destination": "$P2", "description":  "Order $F1 and $F2 as takeout at $P2"},
+              {"type":  "arrive", "destination": "$P3", "description":  "Arrive at your aunt's $P3","after":[0,1]}]
+  }

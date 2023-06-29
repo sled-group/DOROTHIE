@@ -1,0 +1,47 @@
+{
+  "maps": ["Town02"],
+  "departures": [
+    {"location": [30, 105.5, 0.275307], "rotation": [0.000000,180, 0.000000]},
+    {"location": [41.4, 219, 0.275307], "rotation": [0.000000,90, 0.000000]},
+    {"location": [193.5, 289, 0.275307], "rotation": [0.000000,-90, 0.000000]}],
+  "vehicles": ["vehicle.audi.tt", "vehicle.audi.etron", "vehicle.tesla.model3"],
+
+  "npc_count_min": 10,
+  "npc_count_max": 25,
+
+  "weather": {"precipitation": [0, 100]},
+
+  "street_names": ["Baits", "Beal", "Fuller", "Bishop", "Bonisteel", "Broadway", "Draper", "Hayward", "Hubbard", "Murfin", "Plymouth", "Duffield", "Upland", "Division"],
+  "street_name_shuffle": true,
+
+  "asset_groups": {
+    "Town02": [
+      {"assets": ["walker.pedestrian.0001"], 
+	"probabilities": [1.0],
+	"transforms": [{"location": [0, 146, 0.2], "rotation": [0, 180, 0]},
+			{"location": [180, 114, 0.2], "rotation": [0, -90, 0]}]
+},
+      
+
+      {"assets": ["null.house"],
+        "probabilities": [1.0],
+        "transforms": [{"location": [116.2, 198, 5], "rotation": [180,45,-90]},
+			{"location": [49,274,6], "rotation": [0, 180, 90]}]
+	},
+
+     {"assets": ["static.prop.ikea", "static.prop.seveneleven", "static.prop.kfc", "static.prop.coco"],
+      "probabilities": [1.0, 1.0, 1.0, 1.0],
+      "transforms": [{"location": [-13.5,260,9], "rotation": [0, 80, 90]},
+		     {"location": [197.2,221.85,18], "rotation": [0, 90, 90]},
+		     {"location": [76,246,6], "rotation": [0, 180, 90]},
+		     {"location": [167,298,18], "rotation": [0, 180, 90]},
+		     {"location": [51,206,8], "rotation": [0, 90, 90]}]
+},
+    {"assets": ["null.shell"],
+      "probabilities": [1.0],
+      "transforms": [
+                   {"location": [178,101,10], "rotation": [0, 70, 90]}]
+}
+    ]
+  }
+}

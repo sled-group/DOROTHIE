@@ -1,0 +1,45 @@
+{
+  "maps": ["Town03"],
+  "departures": [
+    {"location": [-152, -17, 0.275307], "rotation": [0.000000, 90, 0.000000]},
+    {"location": [-152, 88.4, 0.275307], "rotation": [0.000000,90, 0.000000]}
+  ],
+  "vehicles": ["vehicle.audi.tt", "vehicle.audi.etron", "vehicle.tesla.model3"],
+
+  "npc_count_min": 10,
+  "npc_count_max":25,
+
+  "weather": {"precipitation": [20, 100]},
+
+  "street_names": ["Baits", "Beal", "Fuller", "Bishop", "Bonisteel", "Broadway", "Draper", "Hayward", "Hubbard", "Murfin", "Plymouth", "Duffield", "Upland", "Division"],
+  "street_name_shuffle": true,
+
+  "asset_groups": {
+    "Town03": [
+      {"assets": ["walker.pedestrian.0001"],
+	"probabilities": [1.0], 
+	"transforms": [
+			{"location": [57, 57, 0.2], "rotation": [0, 0, 0]},
+			{"location": [120, -80, 9], "rotation": [0, 0, 0]}]
+},
+     
+
+      {"assets": ["null.house","null.house"],
+        "probabilities": [1.0, 1.0],
+        "transforms": [{"location": [-24, -20, 8], "rotation": [180,45,-90]},
+                       {"location": [-94,40,10], "rotation": [180, 90, -90]},
+                       
+                       {"location": [-18.881119, 111.888115, 5.000000], "rotation": [180.000000, 90.000000, -90.000000]},
+			{"location": [-22.386014, 37.762234, 7.000000], "rotation": [0.000000, -89.999962, 89.999962]},
+			{"location": [-60.139858, -168.531464, 6.000000], "rotation": [0.000000, 89.999962, 89.999962]},
+			{"location": [-95.104889, 176.223770, 5.000000], "rotation": [0.000007, -98.880676, 89.999992]},
+			{"location": [67.132866, -147.552444, 12.758520], "rotation": [0.000000, 0.000014, 89.999954]}]
+	},
+    {"assets": ["null.hospital"],
+      "probabilities": [1.0],
+      "transforms": [
+                   {"location": [-94.405594, -66.433563, 10], "rotation": [0.000000, -89.999962, 89.999962]}]
+}
+    ]
+  }
+}

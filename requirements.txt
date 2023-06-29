@@ -1,0 +1,9 @@
+scipy
+numpy
+pygame
+networkx
+SpeechRecognition
+pyaudio
+gtts
+scikit-build
+opencv-python

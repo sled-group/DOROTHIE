@@ -1,0 +1,9 @@
+{
+    "variables": [["P1", "places.residential"], ["P2",  "places.residential"], ["P4", "places.residential"], ["P10", "people"]],
+    "dependents": [],
+    "hidden_from_co_wizard": ["P1","P2","P4","P10"],
+    "story": "After the party at Tom's house, you need to drop off your friends at their house and return home. You need to drop off Paul at his $P1 and then Nathan at his $P2. After than return to your $P4.",
+    "subgoals": [{"type":  "arrive", "destination": "$P1", "description":  "Drop off Paul at $P1"},
+              {"type":  "arrive", "destination": "$P2", "description":  "Drop off Nathan at $P2"},
+              {"type":  "arrive", "destination": "$P4", "description":  "Arrive at your $P4"}]
+  }

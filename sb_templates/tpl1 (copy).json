@@ -1,0 +1,8 @@
+{
+  "variables": [["P1", "places.restaurants"], ["P3", "places.residential"]],
+  "dependents": [["F1", "P1.menuitems"]],
+  "hidden_from_co_wizard": ["P3"],
+  "story": "Your friend Tony is having a party. You need to get some $F1 from $P1, then pick up your friend Ralph, and finally head to Tony's $P3.",
+  "subgoals": [{"type":  "arrive", "destination": "$P1", "description":  "Pick up $F1 from $P1"},
+            {"type":  "arrive", "destination": "$P3", "description":  "Arrive at Tony's $P3"}]
+}

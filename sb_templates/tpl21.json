@@ -1,0 +1,11 @@
+{
+    "variables": [["P1", "places.stores"], ["P2",  "places.stores"], ["P3", "places.gasstation"], ["P4", "places.restaurants"], ["P5", "places.residential"], ["P10", "people"]],
+    "dependents": [["I1", "P1.items"], ["I2", "P2.items"], ["I3", "P3.items"], ["A1", "P3.actions"], ["F1", "P4.menuitems"]],
+    "hidden_from_co_wizard": ["P5", "P10"],
+    "story": "You decided to help out your friend Tom today. He asked you to buy $I1 from $P1, $I2 and $I3 from $P2, $A1 from $P3, and pick up $F1 from $P4, then come over to his $P5.",
+    "subgoals": [{"type":  "arrive", "destination": "$P1", "description":  "Buy $I1 from $P1"},
+              {"type":  "arrive", "destination": "$P2", "description":  "Buy $I2 and $I3 from $P2"},
+              {"type":  "arrive", "destination": "$P3", "description":  "$A1 at $P3"},
+              {"type":  "arrive", "destination": "$P4", "description":  "Pick up $F1 from $P4"}, 
+              {"type":  "arrive", "destination": "$P5", "description":  "Arrive at Tom's $P5","after":[0,1,2,3]}]
+  }
