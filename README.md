@@ -4,7 +4,7 @@
 
 **[Research Paper](https://arxiv.org/abs/2210.12511)** 
 
-Authored by [Ziqiao Ma](https://maithub.io/), Ben VanDerPloeg, Cristian-Paul Bara, [Yidong Huang](https://sled.eecs.umich.edu/author/yidong-huang/), Eui-In Kim, Felix Gervits, Matthew Marge, [Joyce Chai](https://web.eecs.umich.edu/~chaijy/)
+Authored by [Ziqiao Ma](https://mars-tin.github.io/), Ben VanDerPloeg, Cristian-Paul Bara, [Yidong Huang](https://sled.eecs.umich.edu/author/yidong-huang/), Eui-In Kim, Felix Gervits, Matthew Marge, [Joyce Chai](https://web.eecs.umich.edu/~chaijy/)
 
 DOROTHIE (Dialogue On the ROad To Handle Irregular Events) is an innovative interactive simulation platform designed to create unexpected scenarios on the fly. This tool facilitates empirical studies on situated communication with autonomous driving agents.
 
@@ -85,6 +85,10 @@ $ python3 dorothy.py -wh carlaserver.some -ch carlaserver.some
 
 ## Experiment with Different Metaconfig and Storyboard Template Settings
 We have developed metaconfigs for towns 1, 2, 3, and 5 in Carla. Because some unique assets belong to specific towns, some templates can only be used with a subset of metaconfigs. Feel free to experiment with different combinations of metaconfig and template settings!
+
+## The SDN Dataset
+The SDN Dataset (without speech data) is available [here](https://drive.google.com/drive/folders/12OQ9Bj2XxCDc2bova-JpPqfljVw7FrXH?usp=sharing).
+For ethical considerations, please fill in the [Google form](https://forms.gle/tjXisqMtDtjCCMSD6) to get the speech data in the SDN Dataset. 
 
 ## Citation
 
