@@ -2,7 +2,7 @@
 
 ## Spoken Dialogue for Handling Unexpected Situations in Interactive Autonomous Driving Agents
 
-**[Research Paper](https://arxiv.org/abs/2210.12511)** 
+**[Research Paper](https://arxiv.org/abs/2210.12511)|[Github](https://github.com/sled-group/DOROTHIE)|[Huggingface](https://huggingface.co/datasets/sled-umich/DOROTHIE)** 
 
 Authored by [Ziqiao Ma](https://mars-tin.github.io/), Ben VanDerPloeg, Cristian-Paul Bara, [Yidong Huang](https://sled.eecs.umich.edu/author/yidong-huang/), Eui-In Kim, Felix Gervits, Matthew Marge, [Joyce Chai](https://web.eecs.umich.edu/~chaijy/)
 
