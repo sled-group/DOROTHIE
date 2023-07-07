@@ -87,8 +87,9 @@ $ python3 dorothy.py -wh carlaserver.some -ch carlaserver.some
 We have developed metaconfigs for towns 1, 2, 3, and 5 in Carla. Because some unique assets belong to specific towns, some templates can only be used with a subset of metaconfigs. Feel free to experiment with different combinations of metaconfig and template settings!
 
 ## The SDN Dataset
-The SDN Dataset (without speech data) is available [here](https://drive.google.com/drive/folders/12OQ9Bj2XxCDc2bova-JpPqfljVw7FrXH?usp=sharing).
-For ethical considerations, please fill in the [Google form](https://forms.gle/tjXisqMtDtjCCMSD6) to get the speech data in the SDN Dataset. 
+- The textual transcripts and annotations of SDN dialogue sessions are available on [HuggingFace](https://huggingface.co/datasets/sled-umich/SDN).
+- The public SDN dataset (without speech data) is available on [Google Drive](https://drive.google.com/drive/folders/12OQ9Bj2XxCDc2bova-JpPqfljVw7FrXH?usp=sharing) and [DropBox](#).
+- The speech data in SDN will be available upon request for ethical considerations, please fill in the [Google Form](https://forms.gle/tjXisqMtDtjCCMSD6) to apply for access.
 
 ## Citation
 
