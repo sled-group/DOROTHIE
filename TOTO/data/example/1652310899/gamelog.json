@@ -1,0 +1,97 @@
+[
+    {
+        "frame": 12,
+        "from": "dorothy",
+        "to": "wizard",
+        "type": "dialogue",
+        "val": {
+            "utterance": "turn right at the next intersection",
+            "is_sog": true,
+            "is_eog": false,
+            "is_sot": false,
+            "is_eot": false,
+            "act": "Instruct",
+            "slot_type": "Action",
+            "slot_val": {
+                "act": "JTurn",
+                "slot_type": "RoadID",
+                "slot_val": 216
+            }
+        }
+    },
+    {
+        "frame": 15,
+        "from": "wizard",
+        "to": "dorothy",
+        "type": "dialogue",
+        "val": {
+            "utterance": "okay",
+            "is_sog": false,
+            "is_eog": true,
+            "is_sot": false,
+            "is_eot": false,
+            "act": "Acknowledge",
+            "slot_type": "Null",
+            "slot_val": {}
+        }
+    },
+    {
+        "frame": 17,
+        "from": "wizard",
+        "to": "agent",
+        "type": "planning",
+        "val": {
+            "act": "NextAct",
+            "slot_type": "Action",
+            "slot_val": {
+                "act": "JTurn",
+                "slot_type": "RoadID",
+                "slot_val": 216
+            }
+        }
+    },
+    {
+        "frame": 22,
+        "from": "wizard",
+        "to": "agent",
+        "type": "physical",
+        "val": {
+            "act": "Start",
+            "slot_type": "Null",
+            "slot_val": {
+                "reason": "blocked:699"
+            }
+        }
+    },
+    {
+        "frame": 36,
+        "from": "dorothy",
+        "to": "wizard",
+        "type": "dialogue",
+        "val": {
+            "utterance": "then go straight and turn right to fuller",
+            "is_sog": true,
+            "is_eog": false,
+            "is_sot": false,
+            "is_eot": false,
+            "act": "Instruct",
+            "slot_type": "Action",
+            "slot_val": {
+                "act": "JTurn",
+                "slot_type": "RoadID",
+                "slot_val": 216
+            }
+        }
+    },
+    {
+        "frame": 22,
+        "from": "wizard",
+        "to": "agent",
+        "type": "physical",
+        "val": {
+            "act": "JTurn",
+            "slot_type": "RoadID",
+            "slot_val": 216
+        }
+    }
+]

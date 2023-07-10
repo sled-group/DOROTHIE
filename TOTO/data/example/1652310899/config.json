@@ -1,0 +1,134 @@
+{
+    "session_id": 1652310899,
+    "environment": {
+        "map": "Town02",
+        "blueprint": "vehicle.audi.etron",
+        "street_names": [
+            "Division",
+            "Fuller",
+            "Bishop",
+            "Duffield",
+            "Draper",
+            "Upland",
+            "Hubbard",
+            "Murfin",
+            "Plymouth",
+            "Beal",
+            "Baits",
+            "Bonisteel",
+            "Hayward",
+            "Broadway"
+        ],
+        "departure": {
+            "location": [193.5, 289, 0.275307],
+            "rotation": [0.0, -90, 0.0],
+            "s": 40,
+            "road_id": 13,
+            "lane_id": -1,
+            "junction_id": -1
+        },
+        "landmarks": [
+            {
+                "asset": "walker.pedestrian.0001",
+                "location": [0, 146, 0.2],
+                "rotation": [0, 180, 0],
+                "s": 40,
+                "road_id": 13,
+                "lane_id": -1,
+                "junction_id": -1,
+                "hidden": true
+            },
+            {
+                "asset": "null.house",
+                "location": [116.2, 198, 5],
+                "rotation": [180, 45, -90],
+                "s": 40,
+                "road_id": 13,
+                "lane_id": -1,
+                "junction_id": -1,
+                "hidden": true
+            },
+            {
+                "asset": "static.prop.ikea",
+                "location": [197.2, 221.85, 18],
+                "rotation": [0, 90, 90],
+                "s": 40,
+                "road_id": 13,
+                "lane_id": -1,
+                "junction_id": -1,
+                "hidden": false
+            },
+            {
+                "asset": "static.prop.seveneleven",
+                "location": [167, 298, 18],
+                "rotation": [0, 180, 90],
+                "s": 40,
+                "road_id": 13,
+                "lane_id": -1,
+                "junction_id": -1,
+                "hidden": false
+            },
+            {
+                "asset": "static.prop.kfc",
+                "location": [51, 206, 8],
+                "rotation": [0, 90, 90],
+                "s": 40,
+                "road_id": 13,
+                "lane_id": -1,
+                "junction_id": -1,
+                "hidden": false
+            },
+            {
+                "asset": "static.prop.coco",
+                "location": [76, 246, 6],
+                "rotation": [0, 180, 90],
+                "s": 40,
+                "road_id": 13,
+                "lane_id": -1,
+                "junction_id": -1,
+                "hidden": false
+            },
+            {
+                "asset": "null.shell",
+                "location": [178, 101, 10],
+                "rotation": [0, 70, 90],
+                "s": 40,
+                "road_id": 13,
+                "lane_id": -1,
+                "junction_id": -1,
+                "hidden": false
+            }
+        ]
+    },
+    "task": {
+        "subgoals": [
+             {
+                 "landmark": 2,
+                 "destination": "seven eleven",
+                 "description": "Pick up slurpee and chocolate from Seven Eleven",
+                 "delete": false,
+                 "trigger": false,
+                 "change": false,
+                 "depend": []
+             },
+             {
+                 "landmark": 3,
+                 "destination": "ikea",
+                 "description": "Pick up chair from Ikea",
+                 "delete": true,
+                 "trigger": false,
+                 "change": false,
+                 "depend": []
+             },
+             {
+                 "landmark": 1,
+                 "destination": "house",
+                 "description": "Arrive at Annabel's new house",
+                 "delete": false,
+                 "trigger": false,
+                 "change": false,
+                 "depend": [0]
+             }
+        ]
+    }
+}

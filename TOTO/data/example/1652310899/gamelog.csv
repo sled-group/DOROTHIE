@@ -1,0 +1,7 @@
+frame, from, to, action_type, action_name, args
+12, dorothy, wizard, dialogue, [("request", "physical", "j-turn", 216, false)], "turn right at the next intersection"
+15, wizard, dorothy, dialogue, [("inform", "confirm", "affirm", 1, true)], "okay"
+17, wizard, agent, planning, j-turn, 216
+22, wizard, agent, physical, start, "blocked:699"
+36, dorothy, wizard, dialogue, [("request", "belief", "plan-update", [180])], "then go straight and turn right to fuller"
+53, wizard, agent, physical, j-turn, 216
