@@ -88,7 +88,8 @@ We have developed metaconfigs for towns 1, 2, 3, and 5 in Carla. Because some un
 
 ## The SDN Dataset
 - The textual transcripts and annotations of SDN dialogue sessions are available on [HuggingFace](https://huggingface.co/datasets/sled-umich/SDN).
-- The public SDN dataset (without speech data) is available on [Google Drive](https://drive.google.com/drive/folders/12OQ9Bj2XxCDc2bova-JpPqfljVw7FrXH?usp=sharing) and [DropBox](#).
+- The sensory data of the SDN dataset (without speech data) is available on [Dropbox](https://www.dropbox.com/sh/6wl9n5yf0tgaq49/AACH7Db0GVncGQwqb0njMyQ2a?dl=0).
+- The game logfiles the SDN sessions are available on [Dropbox](https://www.dropbox.com/scl/fo/vkh6202s8e9cs34xlktml/h?rlkey=cnokz6wd0fxrb5zhi7ndfcnyp&dl=0).
 - The speech data in SDN will be available upon request for ethical considerations, please fill in the [Google Form](https://forms.gle/tjXisqMtDtjCCMSD6) to apply for access.
 
 ## Citation
